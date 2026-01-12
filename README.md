@@ -1,4 +1,4 @@
-# Gesture Control Python 🖐️🎥
+# Computer Vision Controls 🖐️🎥
 
 Proyecto personal de **visión por computadora en Python** que utiliza la cámara web para detectar **manos y rostros** y permitir la interacción con el sistema mediante gestos. Incluye un mouse virtual, control de volumen con los dedos y detección facial en tiempo real.
 
@@ -20,6 +20,9 @@ Este proyecto requiere **Python 3.9** (ya que mediapipe 0.8.3.1 no funciona en o
   ```txt
   opencv-python>=4.12.0.88
   mediapipe==0.8.3.1
+  numpy>=2.0.0
+  pyautogui>=0.9.54
+  pycaw
   ```
 
 ## 📥 Instalación
@@ -40,9 +43,9 @@ Este proyecto requiere **Python 3.9** (ya que mediapipe 0.8.3.1 no funciona en o
 3. Instala las dependencias
 
    ```bash
-   pip install opencv-python>=4.12.0.88 mediapipe==0.8.3.1
+   pip install opencv-python>=4.12.0.88 mediapipe==0.8.3.1 numpy pyautogui pycaw
    ```
-Es posible que no se pueda instalar esa versión de mediapipe con pip install, ya que está obsoleto, pero puedes descargar el archivo en esta <a href="https://dashboard.stablebuild.com/pypi-deleted-packages/pkg/mediapipe/0.8.3.1">página</a>
+Es posible que no se pueda instalar esa versión de mediapipe con pip install, ya que está obsoleto, pero puedes descargar el archivo en esta <a href="https://dashboard.stablebuild.com/pypi-deleted-packages/pkg/mediapipe/0.8.3.1">página</a> y luego hacer un pip install de ese archivo, de esta manera podeis trabajar con esa versión
 ## ▶️ Uso
 
 Ejecuta el archivo que desees según la funcionalidad
@@ -59,3 +62,4 @@ Asegúrate de tener una **cámara web o webcam** conectada.
 ## 🧑‍💻 Autor
 
 Proyecto personal desarrollado por Adrián García García
+
