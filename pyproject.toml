@@ -1,7 +1,7 @@
 [project]
-name = "detectormanos"
-version = "0.1.0"
-description = "Add your description here"
+name = "computer-vision-controls"
+version = "1.0"
+description = "Proyecto personal de visión por computadora en Python que utiliza seguimiento de manos para controlar el mouse, ajustar el volumen del sistema y explorar la interacción humano-computadora mediante gestos, además de un archivo python para la detección facial, usando la cámara"
 readme = "README.md"
 requires-python = "==3.9.*"  # Forzar Python 3.9
 dependencies = [
