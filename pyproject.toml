@@ -7,4 +7,7 @@ requires-python = "==3.9.*"  # Forzar Python 3.9
 dependencies = [
     "opencv-python>=4.12.0.88",
     "mediapipe==0.8.3.1",      # Versión antigua de MediaPipe
+    "numpy>=2.0.0",
+    "pyautogui>=0.9.54",
+    "pycaw"
 ]
